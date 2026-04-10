@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hover Bounce Name</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      text-align: center;
+      margin-top: 100px;
+      background: #111;
+      color: white;
+      font-size: 70px;
+    }
+
+    span {
+      display: inline-block;
+      margin: 5px;
+      transition: 0.3s;
+    }
+
+    span:hover {
+      animation: bounce 0.5s;
+      color: white;
+    }
+
+    @keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div>
+    <i class="fa-solid fa-u fa-beat fa-2xl" style="color: rgb(80, 36, 207);"></i>
+    <span style="color:red; font-weight:bold;">U</span>
+    <span style="color:orange; font-weight:bold;">R</span>
+    <span style="color:yellow; font-weight:bold;">I</span>
+    <span style="color:green; font-weight:bold;">E</span>
+    <span style="color:blue; font-weight:bold;">L</span>
+
+    <br>
+
+    <span style="color:purple; font-weight:bold;">M</span>
+    <span style="color:pink; font-weight:bold;">A</span>
+    <span style="color:cyan; font-weight:bold;">S</span>
+    <span style="color:lime; font-weight:bold;">C</span>
+    <span style="color:gold; font-weight:bold;">U</span>
+    <span style="color:teal; font-weight:bold;">L</span>
+    <span style="color:white; font-weight:bold;">I</span>
+    <span style="color:red; font-weight:bold;">N</span>
+    <span style="color:orange; font-weight:bold;">O</span>
+
+    <br>
+
+    <span style="color:yellow; font-weight:bold;">B</span>
+    <span style="color:green; font-weight:bold;">A</span>
+    <span style="color:blue; font-weight:bold;">J</span>
+    <span style="color:purple; font-weight:bold;">A</span>
+    <span style="color:pink; font-weight:bold;">N</span>
+    <span style="color:cyan; font-weight:bold;">D</span>
+    <span style="color:lime; font-weight:bold;">E</span>
+  </div>
+
+</body>
+</html>
